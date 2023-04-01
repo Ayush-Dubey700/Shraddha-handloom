@@ -1,0 +1,97 @@
+
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #E9A178;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; /* updated */
+  padding: 20px 200px;
+}
+
+nav a[href=""] {
+  text-align: left;
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex; /* added */
+}
+
+nav li {
+  margin-left: auto;
+  font-family: "Ubuntu";
+  font-size: 12px; /* updated */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Mission section styles */
+.mission {
+  background-color: #D3D3D3;
+  padding: 50px 0;
+}
+
+.missionhead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.missionhead h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.missionhead img {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  order: 2;
+}
+
+.missionhead p {
+  font-size: 20px;
+  flex-basis: 70%;
+  margin-bottom: 20px;
+  order: 1;
+  text-align: justify;
+  font-family: Georgia;
+}
+.font {
+text-size:25px;
+}
+

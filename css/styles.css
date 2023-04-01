@@ -1,0 +1,230 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color:#E9A178;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FEFAE0;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.6em;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #E9A178;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #E9A178;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #DF7857;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #E9A178;
+}
+.team 
+ {
+    padding-top: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+color: #3C2A21;
+}
+.team-name {
+color: #3C2A21;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+
+/* Set background color and padding for the footer */
+.site-footer {
+    background-color: #E9A178;
+    padding: 50px 0;
+}
+
+/* Style the "About Us" section */
+.footer-heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+    .footer-heading a {
+        color: #333;
+        text-decoration: none;
+    }
+
+        .footer-heading a:hover {
+            text-decoration: underline;
+        }
+
+.footer-text {
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style the "Features" section */
+.footer-feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .footer-feature-list li {
+        margin-bottom: 10px;
+    }
+
+    .footer-feature-list a {
+        color: #666;
+        text-decoration: none;
+    }
+
+        .footer-feature-list a:hover {
+            text-decoration: underline;
+        }
+
+/* Style the "Subscribe to Newsletter" section */
+.footer-suscribe-form input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.justify {
+text-align: justify;
+}
+
+
+
+ 
